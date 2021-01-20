@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 19122,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4374,
+      "max": [
+        0.929473638534546,
+        1.0,
+        0.469444155693054
+      ],
+      "min": [
+        -0.929473638534546,
+        -1.0,
+        -0.469444155693054
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4374,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4374,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 76488,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 52488,
+      "byteOffset": 76488,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 52488,
+      "byteOffset": 128976,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 34992,
+      "byteOffset": 181464,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 216456,
+      "uri": "white_changing_dresser.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Color_M03_baseColor.png"
+    },
+    {
+      "uri": "Color_M03_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Color_M03_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Color_M03",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.470000028610229,
+        0.470000028610229,
+        0.470000028610229
+      ],
+      "translation": [
+        0.0,
+        0.470000028610229,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

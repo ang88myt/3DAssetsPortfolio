@@ -1,0 +1,170 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 210624,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 38144,
+      "max": [
+        0.282000005245209,
+        0.876552760601044,
+        0.273999452590942
+      ],
+      "min": [
+        -0.282000005245209,
+        0.0,
+        -0.270256519317627
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 38144,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 38144,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.1.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 842496,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 457728,
+      "byteOffset": 842496,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 457728,
+      "byteOffset": 1300224,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 305152,
+      "byteOffset": 1757952,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2063104,
+      "uri": "beetlechair.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_beetlechair_baseColor.png"
+    },
+    {
+      "uri": "T_beetlechair_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_beetlechair_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_beetlechair",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Mesh2"
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

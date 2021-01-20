@@ -1,0 +1,195 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "kyo_low.001",
+            "rotation" : [
+                0,
+                0,
+                0.028197607025504112,
+                0.9996023774147034
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "kyo_low"
+        },
+        {
+            "name" : "Texture_Group"
+        },
+        {
+            "children" : [
+                1,
+                2
+            ],
+            "name" : "unnamed",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.4532456398010254,
+                0.45324569940567017,
+                0.45324569940567017
+            ],
+            "translation" : [
+                0.02323126792907715,
+                0.4102035462856293,
+                0.041485488414764404
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "T_kyo",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "kyo_low",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "T_kyo_normal",
+            "uri" : "T_kyo_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "T_kyo_occlusionRoughnessMetallic",
+            "uri" : "T_kyo_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "T_kyo_baseColor",
+            "uri" : "T_kyo_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 32297,
+            "max" : [
+                0.8924810290336609,
+                1.0062159299850464,
+                0.905076801776886
+            ],
+            "min" : [
+                -0.892482340335846,
+                -1.0000005960464478,
+                -0.9112949967384338
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 32297,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 32297,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 126603,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 387564,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 387564,
+            "byteOffset" : 387564
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 258376,
+            "byteOffset" : 775128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 253206,
+            "byteOffset" : 1033504
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1286712,
+            "uri" : "kyo.bin"
+        }
+    ]
+}

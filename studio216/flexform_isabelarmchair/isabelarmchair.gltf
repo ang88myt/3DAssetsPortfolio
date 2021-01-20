@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 88482,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 16996,
+      "max": [
+        0.702509939670563,
+        1.00000011920929,
+        0.756778359413147
+      ],
+      "min": [
+        -0.702509820461273,
+        -1.0,
+        -0.756778359413147
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16996,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 16996,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 353928,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 203952,
+      "byteOffset": 353928,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 203952,
+      "byteOffset": 557880,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 135968,
+      "byteOffset": 761832,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 897800,
+      "uri": "isabelarmchair.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_isabelarmchair_baseColor.png"
+    },
+    {
+      "uri": "T_isabelarmchair_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_isabelarmchair_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_isabelarmchair",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "isabelarmchair",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.369989484548569,
+        0.369989484548569,
+        0.369989484548569
+      ],
+      "translation": [
+        -7.8737735748291e-05,
+        0.369989454746246,
+        -2.98023223876953e-08
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "isabelarmchair"
+    },
+    {
+      "mesh": 0,
+      "name": "isabelarmchair"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

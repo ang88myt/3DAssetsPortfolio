@@ -1,0 +1,297 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 12288,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2354,
+      "max": [
+        0.687964081764221,
+        0.983247876167297,
+        0.731817662715912
+      ],
+      "min": [
+        -0.687964141368866,
+        -0.39267897605896,
+        0.0333035588264465
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2354,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2354,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 48048,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 15279,
+      "max": [
+        0.704716265201569,
+        1.0,
+        0.234651237726212
+      ],
+      "min": [
+        -0.704716265201569,
+        -1.0,
+        -0.731817603111267
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 15279,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 15279,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 49152,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28248,
+      "byteOffset": 49152,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28248,
+      "byteOffset": 77400,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18832,
+      "byteOffset": 105648,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192192,
+      "byteOffset": 124480,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 183348,
+      "byteOffset": 316672,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 183348,
+      "byteOffset": 500020,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 122232,
+      "byteOffset": 683368,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 805600,
+      "uri": "nelson_clock.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_clock_baseColor.png"
+    },
+    {
+      "uri": "T_clock_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_clock_normal.png"
+    },
+    {
+      "uri": "T_glass_baseColor.png"
+    },
+    {
+      "uri": "T_glass_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_glass_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_clock",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "name": "T_glass",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Vitra_Nelson_Night_Clock",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Vitra_Nelson_Night_Clock",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "nelson_clock.obj",
+      "scale": [
+        0.0744979977607727,
+        0.0744979977607727,
+        0.0744979977607727
+      ],
+      "translation": [
+        -4.84287738800049e-08,
+        0.0744979977607727,
+        0.0185189507901669
+      ]
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "g Vitra_Nelson_Night_Clock"
+    },
+    {
+      "mesh": 0,
+      "name": "Vitra_Nelson_Night_Clock"
+    },
+    {
+      "mesh": 1,
+      "name": "Vitra_Nelson_Night_Clock"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

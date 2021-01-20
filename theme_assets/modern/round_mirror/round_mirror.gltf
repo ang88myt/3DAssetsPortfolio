@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 13806,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2980,
+      "max": [
+        0.945156216621399,
+        0.0170610528439283,
+        0.945156216621399
+      ],
+      "min": [
+        -0.945156216621399,
+        -0.0170610528439283,
+        -0.945156216621399
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2980,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2980,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 55224,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 35760,
+      "byteOffset": 55224,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 35760,
+      "byteOffset": 90984,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23840,
+      "byteOffset": 126744,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 150584,
+      "uri": "round_mirror.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Default_baseColor.png"
+    },
+    {
+      "uri": "Default_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Default_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Default",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "round_mirror",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.423210471868515,
+        0.423210471868515,
+        0.423210471868515
+      ],
+      "translation": [
+        0.0,
+        0.0072204158641398,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "round_mirror"
+    },
+    {
+      "mesh": 0,
+      "name": "round_mirror"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 49680,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14266,
+      "max": [
+        1.0,
+        0.443173706531525,
+        0.547534048557281
+      ],
+      "min": [
+        -1.0,
+        -0.443173706531525,
+        -0.547534048557281
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14266,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 14266,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 198720,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 171192,
+      "byteOffset": 198720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 171192,
+      "byteOffset": 369912,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 114128,
+      "byteOffset": 541104,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 655232,
+      "uri": "greytoddlerbed.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_greybed_baseColor.png"
+    },
+    {
+      "uri": "T_greybed_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_greybed_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_greybed",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071
+      ],
+      "translation": [
+        0.0,
+        0.310221582651138,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

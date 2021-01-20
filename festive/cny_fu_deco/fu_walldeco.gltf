@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 364500,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 93521,
+      "max": [
+        1.00019681453705,
+        2.49916648864746,
+        0.00550764054059982
+      ],
+      "min": [
+        -1.00019681453705,
+        -0.042789313942194,
+        -0.135530173778534
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 93521,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 93521,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1458000,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1122252,
+      "byteOffset": 1458000,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1122252,
+      "byteOffset": 2580252,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 748168,
+      "byteOffset": 3702504,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4450672,
+      "uri": "fu_walldeco.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Default_baseColor.png"
+    },
+    {
+      "uri": "Default_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Default_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Default",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "garland",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.830496311187744,
+        0.830496311187744,
+        0.830496311187744
+      ],
+      "translation": [
+        0.0,
+        0.0355363674461842,
+        0.0639916136860847
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "garland"
+    },
+    {
+      "mesh": 0,
+      "name": "garland"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

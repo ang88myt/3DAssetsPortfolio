@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 89733,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24137,
+      "max": [
+        0.695138871669769,
+        1.0,
+        0.627381563186646
+      ],
+      "min": [
+        -0.695138871669769,
+        -1.0,
+        -0.627381563186646
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24137,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 24137,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 358932,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 289644,
+      "byteOffset": 358932,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 289644,
+      "byteOffset": 648576,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 193096,
+      "byteOffset": 938220,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1131316,
+      "uri": "varya.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Default_baseColor.png"
+    },
+    {
+      "uri": "Default_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Default_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Default",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "VAR0610",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.408907204866409,
+        0.408907204866409,
+        0.408907204866409
+      ],
+      "translation": [
+        6.13927841186523e-06,
+        0.408907204866409,
+        -0.000232964754104614
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "VAR0610"
+    },
+    {
+      "mesh": 0,
+      "name": "VAR0610"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

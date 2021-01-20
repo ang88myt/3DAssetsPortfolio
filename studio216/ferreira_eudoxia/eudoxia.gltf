@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 22506,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4067,
+      "max": [
+        0.749494731426239,
+        0.00582212628796697,
+        1.0
+      ],
+      "min": [
+        -0.749494731426239,
+        -0.00582212628796697,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4067,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4067,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 90024,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48804,
+      "byteOffset": 90024,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48804,
+      "byteOffset": 138828,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32536,
+      "byteOffset": 187632,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 220168,
+      "uri": "eudoxia.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_moonstruck_baseColor.png"
+    },
+    {
+      "uri": "T_moonstruck_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_moonstruck_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_moonstruck",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "zenobia",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        1.20230996608734,
+        1.20230996608734,
+        1.20230996608734
+      ],
+      "translation": [
+        5.14388084411621e-05,
+        0.00717318430542946,
+        -0.00323188304901123
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "zenobia"
+    },
+    {
+      "mesh": 0,
+      "name": "zenobia"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

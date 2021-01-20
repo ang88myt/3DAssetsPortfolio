@@ -1,0 +1,297 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 244944,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 46043,
+      "max": [
+        0.9450643658638,
+        0.230695366859436,
+        0.44476181268692
+      ],
+      "min": [
+        -0.967363834381104,
+        -0.373763680458069,
+        -0.382694751024246
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 46043,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 46043,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 374400,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 70513,
+      "max": [
+        1.0,
+        0.373763680458069,
+        0.188688144087791
+      ],
+      "min": [
+        -1.0,
+        -0.0257529821246862,
+        -0.444761872291565
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 70513,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 70513,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 979776,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 552516,
+      "byteOffset": 979776,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 552516,
+      "byteOffset": 1532292,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 368344,
+      "byteOffset": 2084808,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1497600,
+      "byteOffset": 2453152,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 846156,
+      "byteOffset": 3950752,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 846156,
+      "byteOffset": 4796908,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 564104,
+      "byteOffset": 5643064,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6207168,
+      "uri": "blade.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_pillow_baseColor.png"
+    },
+    {
+      "uri": "T_pillow_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_pillow_normal.png"
+    },
+    {
+      "uri": "T_sofa_baseColor.png"
+    },
+    {
+      "uri": "T_sofa_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_sofa_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_pillow",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_sofa",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder003",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cylinder003",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "blade.obj",
+      "scale": [
+        1.15025496482849,
+        1.15025496482849,
+        1.15025496482849
+      ],
+      "translation": [
+        0.0128250122070313,
+        0.429923504590988,
+        -0.0346024632453918
+      ]
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "g Cylinder003"
+    },
+    {
+      "mesh": 0,
+      "name": "Cylinder003"
+    },
+    {
+      "mesh": 1,
+      "name": "Cylinder003"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

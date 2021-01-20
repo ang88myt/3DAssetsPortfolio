@@ -1,0 +1,303 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 15456,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3403,
+      "max": [
+        0.395279914140701,
+        0.192133292555809,
+        1.00045275688171
+      ],
+      "min": [
+        -0.375145733356476,
+        -0.0734123960137367,
+        -0.999321818351746
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3403,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3403,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 4488,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1816,
+      "max": [
+        0.468881338834763,
+        0.161067321896553,
+        -0.404794871807098
+      ],
+      "min": [
+        -0.0522729083895683,
+        0.0383970215916634,
+        -0.979275941848755
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1816,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 1816,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 61824,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 40836,
+      "byteOffset": 61824,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 40836,
+      "byteOffset": 102660,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27224,
+      "byteOffset": 143496,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17952,
+      "byteOffset": 170720,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21792,
+      "byteOffset": 188672,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21792,
+      "byteOffset": 210464,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14528,
+      "byteOffset": 232256,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 246784,
+      "uri": "stocking_white.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_presents_baseColor.png"
+    },
+    {
+      "uri": "T_presents_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_presents_normal.png"
+    },
+    {
+      "uri": "T_woolknit_baseColor.png"
+    },
+    {
+      "uri": "T_woolknit_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_woolknit_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_presents",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_woolknit",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "sock02",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "sock02",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        3
+      ],
+      "name": "root",
+      "scale": [
+        0.251839011907578,
+        0.251839011907578,
+        0.251839011907578
+      ],
+      "translation": [
+        0.0199999883770943,
+        0.0100000016391277,
+        0.234999999403954
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "sock02"
+    },
+    {
+      "mesh": 0,
+      "name": "sock02"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "sock02"
+    },
+    {
+      "mesh": 1,
+      "name": "sock02"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

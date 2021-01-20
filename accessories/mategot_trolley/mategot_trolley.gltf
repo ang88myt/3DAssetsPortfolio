@@ -1,0 +1,297 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5676,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1110,
+      "max": [
+        0.737757682800293,
+        0.860033452510834,
+        0.958910405635834
+      ],
+      "min": [
+        -0.737757563591003,
+        -0.638022422790527,
+        -0.837186098098755
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1110,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1110,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 187500,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 42639,
+      "max": [
+        0.761415898799896,
+        0.953426659107208,
+        1.00000035762787
+      ],
+      "min": [
+        -0.761415779590607,
+        -0.953426122665405,
+        -0.999999344348907
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 42639,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 42639,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 22704,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13320,
+      "byteOffset": 22704,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13320,
+      "byteOffset": 36024,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8880,
+      "byteOffset": 49344,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 750000,
+      "byteOffset": 58224,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 511668,
+      "byteOffset": 808224,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 511668,
+      "byteOffset": 1319892,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 341112,
+      "byteOffset": 1831560,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2172672,
+      "uri": "mategot_trolley.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_frame_baseColor.png"
+    },
+    {
+      "uri": "T_frame_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_frame_normal.png"
+    },
+    {
+      "uri": "T_glass_baseColor.png"
+    },
+    {
+      "uri": "T_glass_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_glass_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_frame",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "name": "T_glass",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Gubi_Mategot_Trolley_mat1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Gubi_Mategot_Trolley_mat1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "trolley.obj",
+      "scale": [
+        0.377586036920547,
+        0.377586036920547,
+        0.377586036920547
+      ],
+      "translation": [
+        -2.98023223876953e-08,
+        0.360000371932983,
+        -0.0131341814994812
+      ]
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "g Gubi_Mategot_Trolley_mat1"
+    },
+    {
+      "mesh": 0,
+      "name": "Gubi_Mategot_Trolley_mat1"
+    },
+    {
+      "mesh": 1,
+      "name": "Gubi_Mategot_Trolley_mat1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

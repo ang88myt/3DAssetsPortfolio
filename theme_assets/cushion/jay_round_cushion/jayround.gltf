@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 345066,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 60403,
+      "max": [
+        0.86509120464325,
+        1.00000011920929,
+        0.627649128437042
+      ],
+      "min": [
+        -0.865091264247894,
+        -1.0,
+        -0.627649128437042
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 60403,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 60403,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1380264,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 724836,
+      "byteOffset": 1380264,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 724836,
+      "byteOffset": 2105100,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 483224,
+      "byteOffset": 2829936,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3313160,
+      "uri": "jayround.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_jayround_baseColor.png"
+    },
+    {
+      "uri": "T_jayround_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_jayround_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_jayround",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "jayround_high2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.253806293010712,
+        0.253806293010712,
+        0.253806293010712
+      ],
+      "translation": [
+        -2.23517417907715e-06,
+        0.253347903490067,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "jayround_high2"
+    },
+    {
+      "mesh": 0,
+      "name": "jayround_high2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

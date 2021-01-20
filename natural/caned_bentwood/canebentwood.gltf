@@ -1,0 +1,176 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 205626,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 38025,
+      "max": [
+        0.694409012794495,
+        1.80079686641693,
+        0.304984033107758
+      ],
+      "min": [
+        -0.692790925502777,
+        -0.00118273496627808,
+        -0.309185892343521
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 38025,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 38025,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.2.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 822504,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 456300,
+      "byteOffset": 822504,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 456300,
+      "byteOffset": 1278804,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 304200,
+      "byteOffset": 1735104,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2039304,
+      "uri": "canebentwood.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_canewood_baseColor.png"
+    },
+    {
+      "uri": "T_canewood_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_canewood_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_canewood",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "canebentwood4",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "canebentwood4",
+      "rotation": [
+        0.0,
+        0.366501212120056,
+        0.0,
+        0.930417597293854
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "canebentwood4"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 644430,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 112121,
+      "max": [
+        1.23492383956909,
+        0.859482526779175,
+        0.924722969532013
+      ],
+      "min": [
+        -1.22477066516876,
+        -5.96046447753906e-08,
+        -0.928470611572266
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 112121,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 112121,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.1.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2577720,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1345452,
+      "byteOffset": 2577720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1345452,
+      "byteOffset": 3923172,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 896968,
+      "byteOffset": 5268624,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6165592,
+      "uri": "scandinaviaremix_sofa.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_srsofa_baseColor.png"
+    },
+    {
+      "uri": "T_srsofa_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_srsofa_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_srsofa",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "scr_original2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "scr_original2"
+    },
+    {
+      "mesh": 0,
+      "name": "scr_original2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

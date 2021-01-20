@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 349968,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 66345,
+      "max": [
+        1.0,
+        0.519056558609009,
+        0.5459805727005
+      ],
+      "min": [
+        -1.0,
+        -0.519056558609009,
+        -0.5459805727005
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 66345,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 66345,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1399872,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 796140,
+      "byteOffset": 1399872,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 796140,
+      "byteOffset": 2196012,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 530760,
+      "byteOffset": 2992152,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3522912,
+      "uri": "emilybench.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_emily_baseColor.png"
+    },
+    {
+      "uri": "T_emily_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_emily_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_emily",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "emilybench",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.75284606218338,
+        0.75284606218338,
+        0.75284606218338
+      ],
+      "translation": [
+        0.0,
+        0.39076966047287,
+        -2.98023223876953e-08
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "emilybench"
+    },
+    {
+      "mesh": 0,
+      "name": "emilybench"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

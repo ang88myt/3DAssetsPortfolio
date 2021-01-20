@@ -1,0 +1,304 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 414912,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 75475,
+      "max": [
+        0.417531162500381,
+        1.0,
+        0.185693830251694
+      ],
+      "min": [
+        -0.485942512750626,
+        -0.714440047740936,
+        -0.241972327232361
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 75475,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 75475,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 57024,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 9954,
+      "max": [
+        0.485942512750626,
+        -0.587839245796204,
+        0.241972342133522
+      ],
+      "min": [
+        0.0139525635167956,
+        -1.0,
+        -0.230017632246017
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 9954,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 9954,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1659648,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 905700,
+      "byteOffset": 1659648,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 905700,
+      "byteOffset": 2565348,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 603800,
+      "byteOffset": 3471048,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 228096,
+      "byteOffset": 4074848,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 119448,
+      "byteOffset": 4302944,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 119448,
+      "byteOffset": 4422392,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 79632,
+      "byteOffset": 4541840,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4621472,
+      "uri": "rubber_plant.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_pot_baseColor.png"
+    },
+    {
+      "uri": "T_pot_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_pot_normal.png"
+    },
+    {
+      "uri": "T_rubberplant_baseColor.png"
+    },
+    {
+      "uri": "T_rubberplant_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_rubberplant_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_pot",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "T_rubberplant",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "bark3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "bark3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        3
+      ],
+      "name": "root",
+      "scale": [
+        0.777956187725067,
+        0.777956187725067,
+        0.777956187725067
+      ],
+      "translation": [
+        -0.194448232650757,
+        0.784707486629486,
+        -0.00465013086795807
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "bark3"
+    },
+    {
+      "mesh": 0,
+      "name": "bark3"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "bark3"
+    },
+    {
+      "mesh": 1,
+      "name": "bark3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

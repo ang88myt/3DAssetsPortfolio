@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 38778,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9404,
+      "max": [
+        0.123792268335819,
+        1.0,
+        0.123792268335819
+      ],
+      "min": [
+        -0.123792268335819,
+        -1.0,
+        -0.123792268335819
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9404,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9404,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 155112,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 112848,
+      "byteOffset": 155112,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 112848,
+      "byteOffset": 267960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 75232,
+      "byteOffset": 380808,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 456040,
+      "uri": "pipes .bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_pipes_baseColor.png"
+    },
+    {
+      "uri": "T_pipes_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_pipes_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_pipes",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "karboxx",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        1.65600001811981,
+        1.65600001811981,
+        1.65600001811981
+      ],
+      "translation": [
+        0.0,
+        1.65600001811981,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "karboxx"
+    },
+    {
+      "mesh": 0,
+      "name": "karboxx"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

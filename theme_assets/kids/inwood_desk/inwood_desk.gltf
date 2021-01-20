@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 47568,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9626,
+      "max": [
+        1.0,
+        0.870827376842499,
+        0.718396067619324
+      ],
+      "min": [
+        -1.0,
+        -0.870827376842499,
+        -0.718396067619324
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9626,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9626,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 190272,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 115512,
+      "byteOffset": 190272,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 115512,
+      "byteOffset": 305784,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 77008,
+      "byteOffset": 421296,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 498304,
+      "uri": "inwood_desk.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_inwooddesk_baseColor.png"
+    },
+    {
+      "uri": "T_inwooddesk_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_inwooddesk_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_inwooddesk",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "inwood_desk2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.299277812242508,
+        0.299277812242508,
+        0.299277812242508
+      ],
+      "translation": [
+        0.0,
+        0.264080673456192,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "inwood_desk2"
+    },
+    {
+      "mesh": 0,
+      "name": "inwood_desk2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

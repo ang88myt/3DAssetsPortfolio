@@ -1,0 +1,176 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 91506,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 18989,
+      "max": [
+        0.302941590547562,
+        0.834942638874054,
+        0.343120843172073
+      ],
+      "min": [
+        -0.302941501140594,
+        8.74698162078857e-05,
+        -0.327310025691986
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 18989,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 18989,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.1.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 366024,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 227868,
+      "byteOffset": 366024,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 227868,
+      "byteOffset": 593892,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 151912,
+      "byteOffset": 821760,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 973672,
+      "uri": "blake_armchair.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_blakearmchair_baseColor.png"
+    },
+    {
+      "uri": "T_blakearmchair_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_blakearmchair_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_blakearmchair",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Mesh2",
+      "rotation": [
+        6.09993291594247e-17,
+        1.0,
+        6.65690869483239e-17,
+        7.54979012640433e-08
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

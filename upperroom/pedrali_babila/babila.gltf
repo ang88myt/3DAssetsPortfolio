@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 11739,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3593,
+      "max": [
+        1.0,
+        0.370558738708496,
+        0.5
+      ],
+      "min": [
+        -1.0,
+        -0.37006339430809,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3593,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3593,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 46956,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43116,
+      "byteOffset": 46956,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43116,
+      "byteOffset": 90072,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28744,
+      "byteOffset": 133188,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 161932,
+      "uri": "babila.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_babila_baseColor.png"
+    },
+    {
+      "uri": "T_babila_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_babila_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_babila",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Babila",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.999997973442078,
+        0.999997973442078,
+        0.999997973442078
+      ],
+      "translation": [
+        0.0,
+        0.370558053255081,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Babila"
+    },
+    {
+      "mesh": 0,
+      "name": "Babila"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

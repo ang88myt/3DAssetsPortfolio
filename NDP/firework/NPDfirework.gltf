@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 214518,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 75664,
+      "max": [
+        0.402569591999054,
+        1.66386210918427,
+        0.00652580661699176
+      ],
+      "min": [
+        -0.40478777885437,
+        0.0,
+        -0.00652580661699176
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 75664,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 75664,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.2.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 858072,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 907968,
+      "byteOffset": 858072,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 907968,
+      "byteOffset": 1766040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 605312,
+      "byteOffset": 2674008,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3279320,
+      "uri": "NPDfirework.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_fireworks_baseColor.png"
+    },
+    {
+      "uri": "T_fireworks_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_fireworks_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_fireworks",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "fw",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "fw",
+      "scale": [
+        1.24500000476837,
+        1.24000000953674,
+        1.24000000953674
+      ],
+      "translation": [
+        -0.000178228539880365,
+        -5.27062944399859e-08,
+        0.0
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "fw"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

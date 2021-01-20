@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5130,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 968,
+      "max": [
+        1.00000011920929,
+        0.018467053771019,
+        0.995971858501434
+      ],
+      "min": [
+        -1.0,
+        -0.0184670500457287,
+        -0.99597179889679
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 968,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 968,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 20520,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11616,
+      "byteOffset": 20520,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11616,
+      "byteOffset": 32136,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7744,
+      "byteOffset": 43752,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 51496,
+      "uri": "licorice.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_licorice_baseColor.png"
+    },
+    {
+      "uri": "T_licorice_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_licorice_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_licorice",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Licorice",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "licorice.obj",
+      "scale": [
+        0.878412961959839,
+        0.878412961959839,
+        0.878412961959839
+      ],
+      "translation": [
+        -1.00135803222656e-05,
+        0.0518455989658833,
+        0.00510048866271973
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "g Licorice"
+    },
+    {
+      "mesh": 0,
+      "name": "Licorice"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

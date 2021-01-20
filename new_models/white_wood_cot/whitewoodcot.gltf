@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 97659,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 26419,
+      "max": [
+        1.0,
+        0.691078364849091,
+        0.588942646980286
+      ],
+      "min": [
+        -1.0,
+        -0.691078364849091,
+        -0.588942646980286
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 26419,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 26419,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 390636,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 317028,
+      "byteOffset": 390636,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 317028,
+      "byteOffset": 707664,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 211352,
+      "byteOffset": 1024692,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1236044,
+      "uri": "whitewoodcot.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_babyfurniture_baseColor.png"
+    },
+    {
+      "uri": "T_babyfurniture_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_babyfurniture_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_babyfurniture",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.629999995231628,
+        0.629999995231628,
+        0.629999995231628
+      ],
+      "translation": [
+        0.0,
+        0.435379356145859,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

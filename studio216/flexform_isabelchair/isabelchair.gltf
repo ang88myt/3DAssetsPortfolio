@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 99450,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 20751,
+      "max": [
+        0.555557668209076,
+        1.0,
+        0.691360771656036
+      ],
+      "min": [
+        -0.555557727813721,
+        -1.0,
+        -0.691360771656036
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 20751,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 20751,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 397800,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 249012,
+      "byteOffset": 397800,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 249012,
+      "byteOffset": 646812,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 166008,
+      "byteOffset": 895824,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1061832,
+      "uri": "isabelchair.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_isabel_baseColor.png"
+    },
+    {
+      "uri": "T_isabel_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_isabel_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_isabel",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "isabel",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.404998391866684,
+        0.404998391866684,
+        0.404998391866684
+      ],
+      "translation": [
+        1.49011611938477e-08,
+        0.404998391866684,
+        -5.95152378082275e-05
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "isabel"
+    },
+    {
+      "mesh": 0,
+      "name": "isabel"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

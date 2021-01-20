@@ -1,0 +1,426 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 23994,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5087,
+      "max": [
+        0.816937148571014,
+        1.0,
+        -0.182676583528519
+      ],
+      "min": [
+        0.485349476337433,
+        0.79706197977066,
+        -0.514264285564423
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5087,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5087,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 97464,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 17879,
+      "max": [
+        0.926949322223663,
+        0.868316531181335,
+        0.624276459217072
+      ],
+      "min": [
+        -0.926949322223663,
+        -1.0,
+        -0.624276459217072
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 17879,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 17879,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5125,
+      "count": 33102,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 6151,
+      "max": [
+        0.904719233512878,
+        -0.353890120983124,
+        0.606273114681244
+      ],
+      "min": [
+        -0.908946216106415,
+        -0.985547780990601,
+        -0.602046489715576
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 6151,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 6151,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 95976,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 61044,
+      "byteOffset": 95976,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 61044,
+      "byteOffset": 157020,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 40696,
+      "byteOffset": 218064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 389856,
+      "byteOffset": 258760,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 214548,
+      "byteOffset": 648616,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 214548,
+      "byteOffset": 863164,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143032,
+      "byteOffset": 1077712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 132408,
+      "byteOffset": 1220744,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 73812,
+      "byteOffset": 1353152,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 73812,
+      "byteOffset": 1426964,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 49208,
+      "byteOffset": 1500776,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1549984,
+      "uri": "bottle_carafeset.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_carafe_cap_baseColor.png"
+    },
+    {
+      "uri": "T_carafe_cap_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_carafe_cap_normal.png"
+    },
+    {
+      "uri": "T_carafe_glass_baseColor.png"
+    },
+    {
+      "uri": "T_carafe_glass_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_carafe_glass_normal.png"
+    },
+    {
+      "uri": "T_carafe_liquid_baseColor.png"
+    },
+    {
+      "uri": "T_carafe_liquid_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_carafe_liquid_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_carafe_cap",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "name": "T_carafe_glass",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "name": "T_carafe_liquid",
+      "normalTexture": {
+        "index": 8
+      },
+      "occlusionTexture": {
+        "index": 7
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6
+        },
+        "metallicRoughnessTexture": {
+          "index": 7
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        3,
+        5
+      ],
+      "name": "root",
+      "scale": [
+        0.145029500126839,
+        0.145029500126839,
+        0.145029500126839
+      ],
+      "translation": [
+        -0.09443499147892,
+        0.145029500126839,
+        0.0505385063588619
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Mesh"
+    },
+    {
+      "mesh": 1,
+      "name": "Mesh"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Mesh"
+    },
+    {
+      "mesh": 2,
+      "name": "Mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    }
+  ]
+}

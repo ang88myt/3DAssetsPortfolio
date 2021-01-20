@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 626892,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 115197,
+      "max": [
+        1.0,
+        0.462968409061432,
+        0.556625783443451
+      ],
+      "min": [
+        -1.0,
+        -0.462968409061432,
+        -0.556625783443451
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 115197,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 115197,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2507568,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1382364,
+      "byteOffset": 2507568,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1382364,
+      "byteOffset": 3889932,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 921576,
+      "byteOffset": 5272296,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6193872,
+      "uri": "kris.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_kris_baseColor.png"
+    },
+    {
+      "uri": "T_kris_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_kris_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_kris",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Static Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "kris.obj",
+      "scale": [
+        0.889347970485687,
+        0.889347970485687,
+        0.889347970485687
+      ],
+      "translation": [
+        0.0,
+        0.411740005016327,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "g Static Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "Static Mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

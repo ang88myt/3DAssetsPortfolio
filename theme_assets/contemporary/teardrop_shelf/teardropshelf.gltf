@@ -1,0 +1,175 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 159024,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 30730,
+      "max": [
+        0.965936362743378,
+        0.225796043872833,
+        0.957415103912354
+      ],
+      "min": [
+        -0.965936362743378,
+        0.0143387764692307,
+        -2.35228705406189
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 30730,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 30730,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.1.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 636096,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 368760,
+      "byteOffset": 636096,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 368760,
+      "byteOffset": 1004856,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 245840,
+      "byteOffset": 1373616,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1619456,
+      "uri": "teardropshelf.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_teardrop_baseColor.png"
+    },
+    {
+      "uri": "T_teardrop_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_teardrop_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_teardrop",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "teardropshelf2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "teardropshelf2",
+      "scale": [
+        0.260812520980835,
+        0.537273764610291,
+        0.260812520980835
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "teardropshelf2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

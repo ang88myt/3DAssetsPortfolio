@@ -1,0 +1,176 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 318720,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 64298,
+      "max": [
+        0.130567967891693,
+        0.375211954116821,
+        0.197802290320396
+      ],
+      "min": [
+        -0.169840633869171,
+        -1.49011611938477e-08,
+        -0.189038276672363
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 64298,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 64298,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.2.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1274880,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 771576,
+      "byteOffset": 1274880,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 771576,
+      "byteOffset": 2046456,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 514384,
+      "byteOffset": 2818032,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3332416,
+      "uri": "houseplant01.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_houseplant01_baseColor.png"
+    },
+    {
+      "uri": "T_houseplant01_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_houseplant01_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "T_houseplant01",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "cgaxis_plants_02_02",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "cgaxis_plants_02_02",
+      "scale": [
+        2.125,
+        2.125,
+        2.125
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "cgaxis_plants_02_02"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

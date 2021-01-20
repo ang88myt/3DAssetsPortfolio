@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2844,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1455,
+      "max": [
+        0.720588386058807,
+        1.0,
+        0.362436532974243
+      ],
+      "min": [
+        -0.720588386058807,
+        -1.0,
+        -0.362436532974243
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1455,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1455,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11376,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17460,
+      "byteOffset": 11376,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17460,
+      "byteOffset": 28836,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11640,
+      "byteOffset": 46296,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 57936,
+      "uri": "pyramid_bookcase.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_pyramidbookcase_baseColor.png"
+    },
+    {
+      "uri": "T_pyramidbookcase_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_pyramidbookcase_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_pyramidbookcase",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.492500007152557,
+        0.492500007152557,
+        0.492500007152557
+      ],
+      "translation": [
+        0.0,
+        0.492500007152557,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

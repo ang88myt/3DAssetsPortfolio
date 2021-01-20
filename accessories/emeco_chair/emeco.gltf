@@ -1,0 +1,297 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 51744,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 10509,
+      "max": [
+        0.617221236228943,
+        1.470907330513,
+        0.735359251499176
+      ],
+      "min": [
+        -0.617221236228943,
+        -0.966145873069763,
+        -0.706415414810181
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 10509,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 10509,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 1272,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 441,
+      "max": [
+        0.618782341480255,
+        -0.965428411960602,
+        0.735359251499176
+      ],
+      "min": [
+        -0.618782341480255,
+        -1.0000091791153,
+        -0.68816077709198
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 441,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 441,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 206976,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 126108,
+      "byteOffset": 206976,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 126108,
+      "byteOffset": 333084,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 84072,
+      "byteOffset": 459192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5088,
+      "byteOffset": 543264,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5292,
+      "byteOffset": 548352,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5292,
+      "byteOffset": 553644,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3528,
+      "byteOffset": 558936,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 562464,
+      "uri": "emeco.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "T_emecobottom_baseColor.png"
+    },
+    {
+      "uri": "T_emecobottom_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_emecobottom_normal.png"
+    },
+    {
+      "uri": "T_emecotop_baseColor.png"
+    },
+    {
+      "uri": "T_emecotop_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "T_emecotop_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "name": "T_emecobottom",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "name": "T_emecotop",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "emeco",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "emeco",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "emeco.obj",
+      "scale": [
+        0.348460137844086,
+        0.348460137844086,
+        0.348460137844086
+      ],
+      "translation": [
+        0.0,
+        0.348461449146271,
+        0.000377610325813293
+      ]
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "g emeco"
+    },
+    {
+      "mesh": 0,
+      "name": "emeco"
+    },
+    {
+      "mesh": 1,
+      "name": "emeco"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
